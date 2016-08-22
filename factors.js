@@ -75,7 +75,7 @@ window.onload = function(){
 
    			html += "</ul>"
    		}
-   		else{
+   		else{ﬁ
             html += "<ul class=\"resultsstyle\">"
 
    			for (var i = 0; i <pathways.programs.length; i++){
