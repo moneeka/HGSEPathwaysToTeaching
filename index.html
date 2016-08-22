@@ -57,20 +57,35 @@ Released   : 20140310
 					<span class="byline">Select your program specifications below</span>
 				</div>
 				<form action="#" method="post" id = "myform">
-		        	<label for="location">Location:</label><br \>
-	    				<input class="location" type="checkbox" name="location" value="eastcoast"> East Coast<br>
-  						<input class="location" type="checkbox" name="location" value="westcoast"> West Coast<br><br>
+		        	<label for="region">Region:</label><br \>
+	    				<input class="region" type="checkbox" name="region" value="EST">Eastern US (EST)<br>
+	    				<input class="region" type="checkbox" name="region" value="CST">Midwestern US (CST)<br>
+	    				<input class="region" type="checkbox" name="region" value="MST">Western US (MST)<br>
+  						<input class="region" type="checkbox" name="region" value="PST">West Coast US (PST)<br>
+  						<input class="region" type="checkbox" name="region" value="nationwide">Nationwide<br><br>
 
   					<label for="duration">Duration:</label><br \>
 	    				<input class="duration" type="checkbox" name="duration" value="oneyr">One Year<br>
+  						<input class="duration" type="checkbox" name="duration" value="twoyrs">Two Years<br>
   						<input class="duration" type="checkbox" name="duration" value="fouryrs">Four Years<br><br>  
 
-  					<label for="cost">Cost/Compensation:</label><br \>
-	    				<input class="cost" type="checkbox" name="cost" value="free">Free<br>
-  						<input class="cost" type="checkbox" name="cost" value="money">Lots of Money<br><br>  
+  					<label for="cost">Cost:</label><br \>
+	    				<input class="cost" type="checkbox" name="cost" value="$0-$4999">$0-$4999<br>
+	    				<input class="cost" type="checkbox" name="cost" value="$5000-$7499">$5000-$7499<br>
+  						<input class="cost" type="checkbox" name="cost" value="$7500-$9999">$7500-$9999<br>
+  						<input class="cost" type="checkbox" name="cost" value="$10,000+">$10,000+<br><br>  
+
+  					<label for="compensation">Compensation:</label><br \>
+	    				<input class="compensation" type="checkbox" name="compensation" value="housing">Housing<br>
+	    				<input class="compensation" type="checkbox" name="compensation" value="stipend">Living Stipend<br>
+  						<input class="compensation" type="checkbox" name="compensation" value="salary">Salary<br>
+  						<input class="compensation" type="checkbox" name="compensation" value="none">None<br><br>  
 
   					<label for="program_type">Type of Program:</label><br \>
-	    				<input class="program_type" type="checkbox" name="program_type" value="fellowship">Fellowship<br>
+	    				<input class="program_type" type="checkbox" name="program_type" value="masters">Master's Degree Program<br>
+  						<input class="program_type" type="checkbox" name="program_type" value="service">Service program<br>
+  						<input class="program_type" type="checkbox" name="program_type" value="servicemasters">Service program and Master's Degree<br>
+  						<input class="program_type" type="checkbox" name="program_type" value="certificate">Teacher Certification Program<br>
   						<input class="program_type" type="checkbox" name="program_type" value="internship">Internship<br><br>      
 		        	
 		      		<input type="submit" data-inline="true" value="Find Programs">
