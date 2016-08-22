@@ -105,6 +105,11 @@ hr {
 		padding-top: 0;
 	}
 
+	li.style1:hover {
+	  background: blue;
+	  cursor: pointer;
+	}
+
 	ul.style2
 	{
 		margin: 0;
@@ -122,6 +127,43 @@ hr {
 	{
 		border-top: 0;
 		padding-top: 0;
+	}
+	
+	ul.resultsstyle {
+	  list-style-type: none;
+	  width: 500px;
+	}
+	
+	h3.resultsstyle {
+	  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+	  color: #6F6F6F;
+	}
+
+	a.resultsstyle {
+		color: #6F6F6F;
+	}
+	
+	li.resultsstyle img {
+	  float: left;
+	  margin: 0 15px 0 0;
+	}
+	
+	li.resultsstyle p {
+
+	  font-family: 'Raleway', sans-serif;
+	  font-size: 11pt;
+	  font-weight: 400;
+	  color: #A41034;
+	}
+	
+	li.resultsstyle {
+	  padding: 0px;
+	  overflow: auto;
+	}
+	
+	li.resultsstyle:hover {
+	  background: #eee;
+	  cursor: pointer;
 	}
 
 /*********************************************************************************/
